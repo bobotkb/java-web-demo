@@ -1,0 +1,11 @@
+<!--
+    Tomcat中的conf/Catalina/localhost文件夹下映射系统部署的xml文件，
+    docBase是web项目路径，workDir是jsp等编译后的文件路径
+    reloadable=true是classes文件修改后自动重新加载配置
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/hello" reloadable="true" debug="0"
+         docBase="E:/workspace_idea/java-web-demo/web"
+         workDir="E:/Deploy/apache-tomcat-7.0.108/workCatalina/localhost/hello-java-web"
+         crossContext="true">
+</Context>
